@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.11.10)  4 JUN 2016 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.11.10)  4 JUN 2016 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./A3_LearningPaper.tex
-(./A3_LearningPaper.tex
+**./A3_Formulary.tex
+(./A3_Formulary.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (c:/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -203,6 +203,14 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
 (c:/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
 
@@ -232,7 +240,7 @@ Package: amstext 2000/06/29 v2.01
 
 (c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
+\@emptytoks=\toks17
 \ex@=\dimen116
 ))
 (c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -262,21 +270,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip10
 \c@parentequation=\count103
 \dspbrk@lvl=\count104
-\tag@help=\toks17
+\tag@help=\toks18
 \row@=\count105
 \column@=\count106
 \maxfields@=\count107
-\andhelp@=\toks18
+\andhelp@=\toks19
 \eqnshift@=\dimen119
 \alignsep@=\dimen120
 \tagshift@=\dimen121
 \tagwidth@=\dimen122
 \totwidth@=\dimen123
 \lineht@=\dimen124
-\@envbody=\toks19
+\@envbody=\toks20
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -313,8 +321,8 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 \f@ncyO@olf=\skip62
 \f@ncyO@orf=\skip63
 ))
-(./A3_LearningPaper.aux)
-\openout1 = `A3_LearningPaper.aux'.
+(./A3_Formulary.aux)
+\openout1 = `A3_Formulary.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -328,20 +336,19 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
-
-(c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+ (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen132
 \scratchbox=\box29
 \nofMPsegments=\count110
 \nofMParguments=\count111
-\everyMPshowfont=\toks21
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count112
 \MPscratchDim=\dimen133
 \MPnumerator=\count113
 \makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks22
+\everyMPtoPDFconversion=\toks23
 ) (c:/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -428,76 +435,27 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./A3_LearningPaper.toc)
+(./A3_Formulary.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+ (c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write3
-\openout3 = `A3_LearningPaper.toc'.
-
- (./content_LA/definitions.tex
-<images_LA/HiL.jpg, id=1, 161.85469pt x 91.09032pt>
-File: images_LA/HiL.jpg Graphic file (type jpg)
- <use images_LA/HiL.jpg>
-Package pdftex.def Info: images_LA/HiL.jpg used on input line 7.
-(pdftex.def)             Requested size: 100.42839pt x 56.51987pt.
-
-<images_LA/SiL.jpg, id=2, 313.9228pt x 58.71938pt>
-File: images_LA/SiL.jpg Graphic file (type jpg)
- <use images_LA/SiL.jpg>
-Package pdftex.def Info: images_LA/SiL.jpg used on input line 14.
-(pdftex.def)             Requested size: 175.7516pt x 32.87364pt.
-
-Underfull \hbox (badness 3343) in paragraph at lines 11--18
-[]\OT1/cmr/m/n/10.95 is a sim-u-la-tion tech-
- []
+\openout3 = `A3_Formulary.toc'.
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 18--19
-[]\OT1/cmr/m/n/10.95 is an ab-strac-tion from re-al-world ob-jects;
- []
+(./content_Formulary/resources.tex) (./content_Formulary/physics.tex
+<images_Form/RLC.jpg, id=1, 257.46187pt x 142.28156pt>
+File: images_Form/RLC.jpg Graphic file (type jpg)
 
-<images_LA/timediscrete.jpg, id=3, 191.9672pt x 140.77594pt>
-File: images_LA/timediscrete.jpg Graphic file (type jpg)
-
-<use images_LA/timediscrete.jpg>
-Package pdftex.def Info: images_LA/timediscrete.jpg used on input line 23.
-(pdftex.def)             Requested size: 125.5374pt x 92.06175pt.
-
-<images_LA/timecontinuos.jpg, id=4, 197.98969pt x 143.78719pt>
-File: images_LA/timecontinuos.jpg Graphic file (type jpg)
-
-<use images_LA/timecontinuos.jpg>
-Package pdftex.def Info: images_LA/timecontinuos.jpg used on input line 30.
-(pdftex.def)             Requested size: 175.7516pt x 127.63889pt.
-
-Underfull \hbox (badness 2042) in paragraph at lines 27--34
-\OT1/cmr/m/n/10.95 the whole time or for an spe-cific in-ter-val
- []
-
-<images_LA/discreteY_continuosX.jpg, id=5, 186.6975pt x 92.59593pt>
-File: images_LA/discreteY_continuosX.jpg Graphic file (type jpg)
-
-<use images_LA/discreteY_continuosX.jpg>
-Package pdftex.def Info: images_LA/discreteY_continuosX.jpg used on input line 
-37.
-(pdftex.def)             Requested size: 175.7516pt x 87.17015pt.
-
-<images_LA/discreteY_discreteX.jpg, id=6, 189.70876pt x 162.6075pt>
-File: images_LA/discreteY_discreteX.jpg Graphic file (type jpg)
-
-<use images_LA/discreteY_discreteX.jpg>
-Package pdftex.def Info: images_LA/discreteY_discreteX.jpg used on input line 4
-4.
-(pdftex.def)             Requested size: 175.7516pt x 150.64777pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images_LA/ContinuosX_continuosY.jpg, id=7, 192.72pt x 173.14688pt>
-File: images_LA/ContinuosX_continuosY.jpg Graphic file (type jpg)
-
-<use images_LA/ContinuosX_continuosY.jpg>
-Package pdftex.def Info: images_LA/ContinuosX_continuosY.jpg used on input line
- 52.
-(pdftex.def)             Requested size: 175.7516pt x 157.90207pt.
+<use images_Form/RLC.jpg>
+Package pdftex.def Info: images_Form/RLC.jpg used on input line 6.
+(pdftex.def)             Requested size: 175.7516pt x 97.12793pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -508,79 +466,11 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 [1{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./images_LA/HiL.jpg> <./images_LA/SiL.jpg> <./images_LA/timediscrete.jpg> <./
-images_LA/timecontinuos.jpg> <./images_LA/discreteY_continuosX.jpg>]
-<images_LA/DiscreteX_continuosY.jpg, id=17, 179.92218pt x 173.89969pt>
-File: images_LA/DiscreteX_continuosY.jpg Graphic file (type jpg)
+ <./images_Form/RLC.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
-<use images_LA/DiscreteX_continuosY.jpg>
-Package pdftex.def Info: images_LA/DiscreteX_continuosY.jpg used on input line 
-59.
-(pdftex.def)             Requested size: 175.7516pt x 169.88185pt.
-
-<images_LA/DFT.jpg, id=18, 504.38437pt x 134.00063pt>
-File: images_LA/DFT.jpg Graphic file (type jpg)
- <use images_LA/DFT.jpg>
-Package pdftex.def Info: images_LA/DFT.jpg used on input line 67.
-(pdftex.def)             Requested size: 175.7516pt x 46.69235pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images_LA/dirac1.jpg, id=19, 323.70938pt x 98.61844pt>
-File: images_LA/dirac1.jpg Graphic file (type jpg)
-
-<use images_LA/dirac1.jpg>
-Package pdftex.def Info: images_LA/dirac1.jpg used on input line 76.
-(pdftex.def)             Requested size: 175.7516pt x 53.54358pt.
-
-<images_LA/dirac2.jpg, id=20, 292.09125pt x 118.94438pt>
-File: images_LA/dirac2.jpg Graphic file (type jpg)
-
-<use images_LA/dirac2.jpg>
-Package pdftex.def Info: images_LA/dirac2.jpg used on input line 85.
-(pdftex.def)             Requested size: 175.7516pt x 71.57043pt.
-
-<images_LA/diraccomb.jpg, id=21, 455.45157pt x 155.83218pt>
-File: images_LA/diraccomb.jpg Graphic file (type jpg)
-
-<use images_LA/diraccomb.jpg>
-Package pdftex.def Info: images_LA/diraccomb.jpg used on input line 93.
-(pdftex.def)             Requested size: 175.7516pt x 60.13467pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 32.43999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2 <./images_LA/discreteY_discreteX.jpg> <./images_LA/ContinuosX_continuosY.jpg
-> <./images_LA/DiscreteX_continuosY.jpg> <./images_LA/DFT.jpg> <./images_LA/dir
-ac1.jpg> <./images_LA/dirac2.jpg> <./images_LA/diraccomb.jpg>]
-<images_LA/discontinu.jpg, id=31, 258.21469pt x 106.89937pt>
-File: images_LA/discontinu.jpg Graphic file (type jpg)
-
-<use images_LA/discontinu.jpg>
-Package pdftex.def Info: images_LA/discontinu.jpg used on input line 123.
-(pdftex.def)             Requested size: 175.7516pt x 72.76236pt.
-
-Overfull \hbox (7.58327pt too wide) in paragraph at lines 129--130
-[]\OT1/cmr/m/n/10.95 means that the
  []
 
-<images_LA/window.jpg, id=32, 462.22687pt x 177.66376pt>
-File: images_LA/window.jpg Graphic file (type jpg)
-
-<use images_LA/window.jpg>
-Package pdftex.def Info: images_LA/window.jpg used on input line 139.
-(pdftex.def)             Requested size: 175.7516pt x 67.55359pt.
-
-<images_LA/zerop.jpg, id=33, 439.6425pt x 153.57375pt>
-File: images_LA/zerop.jpg Graphic file (type jpg)
-
-<use images_LA/zerop.jpg>
-Package pdftex.def Info: images_LA/zerop.jpg used on input line 147.
-(pdftex.def)             Requested size: 175.7516pt x 61.3909pt.
 )
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -588,75 +478,32 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3 <./images_LA/discontinu.jpg> <./images_LA/window.jpg> <./images_LA/zerop.jpg
->] (./content_LA/ODEs.tex
-Overfull \hbox (3.55125pt too wide) in paragraph at lines 18--18
-[][] 
- []
+[2
 
-
-Overfull \hbox (11.1955pt too wide) in paragraph at lines 18--19
-[][] 
- []
-
-
-Overfull \hbox (11.1955pt too wide) in paragraph at lines 46--47
-[][] 
- []
-
-) (./content_LA/DFT.tex
-<images_LA/mirrorValues.jpg, id=38, 3766.07pt x 1341.01pt>
-File: images_LA/mirrorValues.jpg Graphic file (type jpg)
-
-<use images_LA/mirrorValues.jpg>
-Package pdftex.def Info: images_LA/mirrorValues.jpg used on input line 19.
-(pdftex.def)             Requested size: 225.96579pt x 80.45712pt.
-
-Overfull \hbox (28.98668pt too wide) in paragraph at lines 26--56
-[]$[]\OT1/cmr/m/n/10.95 ([]) = []$ = $ [] $ 
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 32.43999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4 <./images_LA/mirrorValues.jpg>])
-
-Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 32.43999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5
-
-] (./A3_LearningPaper.aux) ) 
+] (./A3_Formulary.aux) ) 
 Here is how much of TeX's memory you used:
- 5862 strings out of 493089
- 88333 string characters out of 6138424
- 241995 words of memory out of 5000000
- 9236 multiletter control sequences out of 15000+600000
- 9992 words of font info for 36 fonts, out of 8000000 for 9000
+ 5848 strings out of 493089
+ 87168 string characters out of 6138424
+ 236318 words of memory out of 5000000
+ 9225 multiletter control sequences out of 15000+600000
+ 10735 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,50p,378b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mex10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pf
-b><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on A3_LearningPaper.pdf (5 pages, 1452012 bytes).
+ 47i,11n,50p,264b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmssbx10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb>
+Output written on A3_Formulary.pdf (2 pages, 132721 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

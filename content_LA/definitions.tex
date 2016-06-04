@@ -1,18 +1,17 @@
-\subsection{Definitions}
-
+\section{Definitions}
 \begin{description}
 	\item[Simulation] is the imitation of the operation of a real world process or system over time (e.g. via MATLAB/Simulink)
 	\item[Hardware in the loop (HiL)] means testing of software in combination with an existing hardware component OR: HiL is a technique for testing a embedded system by simulating the real environment around the embedded system. \figref{fig:HiL}
 		\begin{figure}[!h]
 		\centering
-			\includegraphics[width=0.4\linewidth]{HiL}
+			\includegraphics[width=0.4\linewidth]{images_LA/HiL}
 			\caption{Hardware in the loop (HiL)}
 			\label{fig:HiL}
 		\end{figure}
 	\item[Software in the loop (SiL)] is a simulation technique for software models only with a simulated hardware and not with a realworld existing hardware OR SiL is a technique for testing software by simulating the target hardware \figref{fig:SiL}.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{SiL}
+			\includegraphics[width=0.7\linewidth]{images_LA/SiL}
 			\caption{Software in the loop (SiL)}
 			\label{fig:SiL}
 		\end{figure}
@@ -21,28 +20,28 @@
 	\item[Time discrete] means that a signal is only defined at specifiv time values \figref{fig:timediscrete}.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.5\linewidth]{timediscrete}
+			\includegraphics[width=0.5\linewidth]{images_LA/timediscrete}
 			\caption[Time discrete signal]{Time discrete signal: A y-value exists only for specific x-values.}
 			\label{fig:timediscrete}
 		\end{figure}
 	\item[Time continuos] means that a signal is defined for the whole time or for an specific interval \figref{fig:timecontinuos}.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{timecontinuos}
+			\includegraphics[width=0.7\linewidth]{images_LA/timecontinuos}
 			\caption[Time continuos signal]{Time continuos signal: A y-value exists for every x-value (in the intervall).}
 			\label{fig:timecontinuos}
 		\end{figure}
 	\item[Discrete values] A signal can be measured in time ranges (time continuos) \figref{fig:discreteY_continuosX} or at specific time values (time discrete)\figref{fig:discreteY_discreteX}. Each y-value in one time range has got the same value. Discrete values can be counted.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{discreteY_continuosX}
+			\includegraphics[width=0.7\linewidth]{images_LA/discreteY_continuosX}
 			\caption[Continuos X, discrete Y]{Continuos X, discrete Y}
 			\label{fig:discreteY_continuosX}
 		\end{figure}
 		
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{discreteY_discreteX}
+			\includegraphics[width=0.7\linewidth]{images_LA/discreteY_discreteX}
 			\caption[Discrete X, discrete Y]{Discrete X, discrete Y}
 			\label{fig:discreteY_discreteX}
 		\end{figure}
@@ -50,14 +49,14 @@
 	\item[Continuos values] can be measured and can take any value (\figref{fig:ContinuosX_continuosY} and \figref{fig:DiscreteX_continuosY})
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{ContinuosX_continuosY}
+			\includegraphics[width=0.7\linewidth]{images_LA/ContinuosX_continuosY}
 			\caption{Continuos X, discrete Y}
 			\label{fig:ContinuosX_continuosY}
 		\end{figure}
 		
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{DiscreteX_continuosY}
+			\includegraphics[width=0.7\linewidth]{images_LA/DiscreteX_continuosY}
 			\caption{Discrete X, continuos Y}
 			\label{fig:DiscreteX_continuosY}
 		\end{figure}
@@ -65,8 +64,8 @@
 	\item[Discrete Fourier Transform (DFT)] is a stand alone definition for time discrete signals of limited duration besides the Fourier Transform \figref{fig:DFT}.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{DFT}
-			\caption[Discrete Fourier Transform (DFT)]{Discrete Fourier Transform (DFT)}
+			\includegraphics[width=0.7\linewidth]{images_LA/DFT}
+			\caption{Discrete Fourier Transform (DFT)}
 			\label{fig:DFT}
 		\end{figure}
 	\item[Dirac distribution] $\dirac$ ist not function, but a distribution. It cannot be defined directly, but has to be described indirectly e.g. by intregration.
@@ -74,7 +73,7 @@
 			\item $ \dirac=0$ for all $t\neq0$ and $\int_{-\infty}^{+\infty}\dirac dt = 1 $
 				\begin{figure}[!h]
 					\centering
-					\includegraphics[width=0.7\linewidth]{dirac1}
+					\includegraphics[width=0.7\linewidth]{images_LA/dirac1}
 					\caption{Dirac}
 					\label{fig:dirac1}
 				\end{figure}
@@ -83,7 +82,7 @@
 			\item $\dirac = \int_{-\infty}^{+\infty}(\lim\limits_{n \to \infty} \frac{1}{2\varepsilon}[s(t+\varepsilon)-s(t-\varepsilon)] ); \varepsilon>0 $
 				\begin{figure}[!h]
 					\centering
-					\includegraphics[width=0.7\linewidth]{dirac2}
+					\includegraphics[width=0.7\linewidth]{images_LA/dirac2}
 					\caption{Dirac2}
 					\label{fig:dirac2}
 				\end{figure}				
@@ -91,7 +90,7 @@
 	\item[Dirac comb ${III}_1$] is a periodic funtion of the Dirac distribution. The ideal sampling can be described by Dirac distributions located with distances $T_s$ which results in a spectrum of Dirac distributions having the distance $\frac{1}{T_s}$ \figref{fig:diraccomb}.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{diraccomb}
+			\includegraphics[width=0.7\linewidth]{images_LA/diraccomb}
 			\caption{Dirac Comb}
 			\label{fig:diraccomb}
 		\end{figure}
@@ -121,7 +120,7 @@
 	\item[Discontinuities] appear where a function is not continuous \figref{fig:discontinu}.
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.7\linewidth]{discontinu}
+			\includegraphics[width=0.7\linewidth]{images_LA/discontinu}
 			\caption{Example of a function with discontinuities}
 			\label{fig:discontinu}
 		\end{figure}
@@ -129,17 +128,15 @@
 
 	\item[Sifting property of Dirac distribution] means that the function value $f(t=0)$ can be extracted with the mulitplication of the function with the Dirac distribution.
 	
-	$\int_{-\infty}^{+\infty} f(t) \cdot \dirac dt = f(0) $ 
 	
-	because of 
-		
-	$ \dirac=\left\{\begin{array}{ll} 0, & t \neq 0 \\
-	\infty, & t = 0\end{array}\right. $	and $\int_{-\infty}^{+\infty}\dirac dt = 1 $
+	$\int_{-\infty}^{+\infty} f(t) \cdot \dirac dt = f(0) $ because of 
+	$ \dirac=\left\{\begin{array}{ll} 0,&t \neq 0 \\
+	\infty,&t = 0\end{array}\right. $	and $\int_{-\infty}^{+\infty}\dirac dt = 1 $
 	
 	\item[Window function] is a rectangular function used as a window for calculating a DFT. When a function is multiplied by a window function, the product is zero-valued outside of the window's interval; all that is left ist the part where they overlap, the "view though the window" \figref{fig:window}.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{window}
+			\includegraphics[width=0.7\linewidth]{images_LA/window}
 			\caption{Use of a window function}
 			\label{fig:window}
 		\end{figure}
@@ -147,7 +144,7 @@
 	\item[Zero padding] adds zeros to the end of signals to compress the signal \figref{fig:zerop}.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{zerop}
+			\includegraphics[width=0.7\linewidth]{images_LA/zerop}
 			\caption{Zero padding}
 			\label{fig:zerop}
 		\end{figure}

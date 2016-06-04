@@ -1,0 +1,14 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Resources for the exam}{1}
+\contentsline {section}{\numberline {2}Electronical formulas}{1}
+\contentsline {subsection}{\numberline {2.1}Resistor}{1}
+\contentsline {subsection}{\numberline {2.2}Capacitor/Condenser}{1}
+\contentsline {subsection}{\numberline {2.3}Inductor}{1}
+\contentsline {section}{\numberline {3}Mechanical formulas}{2}
+\contentsline {subsection}{\numberline {3.1}Newton's Second Law}{2}
+\contentsline {subsection}{\numberline {3.2}Gravitational force}{2}
+\contentsline {subsection}{\numberline {3.3}Spring force}{2}
+\contentsline {subsection}{\numberline {3.4}Friction force}{2}
+\contentsline {subsection}{\numberline {3.5}Rotational force}{2}
+\contentsline {subsection}{\numberline {3.6}Torque}{2}
+\contentsline {subsection}{\numberline {3.7}Rotational movement}{2}
