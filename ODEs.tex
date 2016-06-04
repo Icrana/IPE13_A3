@@ -1,0 +1,49 @@
+\section{ODEs}
+
+\subsection{How to solve an ODE?}
+
+An ODE of n-th order is given. Change it to n ODEs of 1st order via substitution. Now you can use MATLAB to solve it.
+
+\examp{
+Example:
+
+$y^{(3)} + a_2 y^{\prime\prime} + a_1 y^\prime + a_0 y = b$
+
+\begin{tabular}{c|c}
+ Subsitution  & Derivation  \\  \hline
+ \(y_1 = y\) 					&  \(y_1^\prime = y^\prime = y_2\) \\ 
+ \(y_2 = y^\prime\)				& \( y_2^\prime = y^{\prime\prime} = y_3\) \\ 
+ \(y_3 = y^{\prime\prime}\) 	& \(y_3^\prime = y^{(3)} = b - a_2 y_3 - a_1 y_2 - a_0 y_1\)
+\end{tabular} 
+}
+
+\subsection{How to get $G(s)$?}
+
+Transform the ODE from the time into the frequency domain.
+
+\begin{tabular}{c|c}
+	 Derivatives  & Integrals  \\ \hline
+	 \(y(t) \laplace Y(s)\) 						&  \(\int y(t) dt \laplace \frac{1}{s} Y(s)\) \\
+	 \(y^\prime (t) \laplace s Y(s)\)				&  \(\int\int y(t) dt \laplace \frac{1}{s^2} Y(s) \)  \\ 
+	 \(y^{\prime\prime} (t) \laplace s^2 Y(s)\)  	&  \(\int\int\int y(t) dt \laplace \frac{1}{s^3} Y(s)\) \\
+	 and so on... & and so on...
+\end{tabular} 
+
+Exclude the output signal and calculate $G(s)= \frac{output}{input}$. 
+
+\examp{
+	Example:
+	
+	$y^{(3)}+a_2 y^{\prime\prime} + a_1 y^\prime + a_0 y = b$ 
+	
+	with $b$ as input signal and $y$ as output signal.
+	
+	Laplace Transform:
+	
+	\(s^3 Y(s) + s^2 a_2  Y(s) + s a_1 Y(s) +a_0 Y(s) = B(s) \\
+			Y(s) (s^3 + s^2 a_2 + s a_1 + a_0 ) = B(s) \\
+			G(s) = \frac{Y(s)}{B(s)} = \frac{1}{s^3 + s^2 a_2 + s a_1 + a_0 }\)
+}
+
+If the input signal is $0$, then integrate and solve the equation for the output variable.
+

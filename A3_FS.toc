@@ -1,0 +1,6 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Definitions}{1}
+\contentsline {section}{\numberline {2}ODEs}{4}
+\contentsline {subsection}{\numberline {2.1}How to solve an ODE?}{4}
+\contentsline {subsection}{\numberline {2.2}How to get $G(s)$?}{4}
+\contentsline {section}{\numberline {3}DFT}{4}
