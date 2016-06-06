@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.11.10)  4 JUN 2016 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.11.10)  6 JUN 2016 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -203,6 +203,14 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
 (c:/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
 
@@ -232,7 +240,7 @@ Package: amstext 2000/06/29 v2.01
 
 (c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
+\@emptytoks=\toks17
 \ex@=\dimen116
 ))
 (c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -262,21 +270,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip10
 \c@parentequation=\count103
 \dspbrk@lvl=\count104
-\tag@help=\toks17
+\tag@help=\toks18
 \row@=\count105
 \column@=\count106
 \maxfields@=\count107
-\andhelp@=\toks18
+\andhelp@=\toks19
 \eqnshift@=\dimen119
 \alignsep@=\dimen120
 \tagshift@=\dimen121
 \tagwidth@=\dimen122
 \totwidth@=\dimen123
 \lineht@=\dimen124
-\@envbody=\toks19
+\@envbody=\toks20
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -336,12 +344,12 @@ LaTeX Font Info:    ... okay on input line 10.
 \scratchbox=\box29
 \nofMPsegments=\count110
 \nofMParguments=\count111
-\everyMPshowfont=\toks21
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count112
 \MPscratchDim=\dimen133
 \MPnumerator=\count113
 \makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks22
+\everyMPtoPDFconversion=\toks23
 ) (c:/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -428,11 +436,20 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./A3_LearningPaper.toc)
+(./A3_LearningPaper.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+ (c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write3
 \openout3 = `A3_LearningPaper.toc'.
 
- (./content_LA/definitions.tex
+
+(./content_LA/definitions.tex
 <images_LA/HiL.jpg, id=1, 161.85469pt x 91.09032pt>
 File: images_LA/HiL.jpg Graphic file (type jpg)
  <use images_LA/HiL.jpg>
@@ -467,10 +484,6 @@ File: images_LA/timecontinuos.jpg Graphic file (type jpg)
 <use images_LA/timecontinuos.jpg>
 Package pdftex.def Info: images_LA/timecontinuos.jpg used on input line 30.
 (pdftex.def)             Requested size: 175.7516pt x 127.63889pt.
-
-Underfull \hbox (badness 2042) in paragraph at lines 27--34
-\OT1/cmr/m/n/10.95 the whole time or for an spe-cific in-ter-val
- []
 
 <images_LA/discreteY_continuosX.jpg, id=5, 186.6975pt x 92.59593pt>
 File: images_LA/discreteY_continuosX.jpg Graphic file (type jpg)
@@ -633,13 +646,13 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 
 ] (./A3_LearningPaper.aux) ) 
 Here is how much of TeX's memory you used:
- 5862 strings out of 493089
- 88333 string characters out of 6138424
- 241995 words of memory out of 5000000
- 9236 multiletter control sequences out of 15000+600000
- 9992 words of font info for 36 fonts, out of 8000000 for 9000
+ 5947 strings out of 493089
+ 89554 string characters out of 6138424
+ 242462 words of memory out of 5000000
+ 9307 multiletter control sequences out of 15000+600000
+ 11635 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,50p,378b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,12n,50p,385b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mex10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
@@ -653,7 +666,7 @@ cmr8.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pf
 b><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on A3_LearningPaper.pdf (5 pages, 1452012 bytes).
+Output written on A3_LearningPaper.pdf (5 pages, 1452044 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

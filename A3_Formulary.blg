@@ -1,0 +1,5 @@
+[1] Config.pm:324> INFO - This is Biber 2.1
+[2] Config.pm:327> INFO - Logfile is 'A3_Formulary.blg'
+[258] biber-MSWIN:273> INFO - === %a %b %e, %Y, %H:%M:%S
+[1265] Utils.pm:162> ERROR - Cannot find control file 'A3_Formulary.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[1265] Biber.pm:110> INFO - ERRORS: 1

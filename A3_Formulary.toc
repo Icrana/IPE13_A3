@@ -13,3 +13,7 @@
 \contentsline {subsection}{\numberline {4.5}Rotational force}{2}
 \contentsline {subsection}{\numberline {4.6}Torque}{2}
 \contentsline {subsection}{\numberline {4.7}Rotational movement}{2}
+\contentsline {section}{\numberline {5}DFT}{2}
+\contentsline {paragraph}{\nonumberline Fourier Transform}{2}
+\contentsline {paragraph}{\nonumberline Discrete Fourier Transform}{2}
+\contentsline {paragraph}{\nonumberline Inverse discrete Fourier Transform}{3}

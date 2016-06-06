@@ -50,7 +50,7 @@
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.7\linewidth]{images_LA/ContinuosX_continuosY}
-			\caption{Continuos X, discrete Y}
+			\caption{Continuos X, continuos Y}
 			\label{fig:ContinuosX_continuosY}
 		\end{figure}
 		
@@ -65,7 +65,7 @@
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.7\linewidth]{images_LA/DFT}
-			\caption{Discrete Fourier Transform (DFT)}
+			\caption{Analog-Digital-Converter}
 			\label{fig:DFT}
 		\end{figure}
 	\item[Dirac distribution] $\dirac$ ist not function, but a distribution. It cannot be defined directly, but has to be described indirectly e.g. by intregration.
@@ -107,13 +107,13 @@
 	
 	The Length of this sequence is $n=13$.
 	
-	\item[Sampling] converts a continuos time signal into a discrete time signal. Sampling is done by a multiplication of the signal $u(t)$ with the dirac comb. A multiplication in the time domain results in a convolution in frequency domain. It is performed over a limieted time.
+	\item[Sampling] converts a continuos time signal into a discrete time signal. Sampling is done by a multiplication of the signal $u(t)$ with the dirac comb. A multiplication in the time domain results in a convolution in frequency domain. It is performed over a limited time.
 	\item[Time domain and frequency domain] The function values of a signal in time domain depend on time values. In the frequency domain the function values depend n frequency values.
 	
-	$f(t) \laplace F(f)$ with $f=\frac{1}{t}$
+	$f(t) \laplace F(f)$ with $f=\frac{1}{T}$
 	
-	\item[Periodic funtion] repeats itself after a period of time. Examples: $\sin(x),\cos(x)$
-	\item[Limited function] is only defined for a specific time range. A limieted function in time domain contains an unlimited spectrum of frequencies in frequency domain. 
+	\item[Periodic funtion] repeats itself after a period of time T. Examples: $\sin(x),\cos(x)$
+	\item[Limited function] is only defined for a specific time range. A limited function in time domain contains an unlimited spectrum of frequencies in frequency domain. 
 	\item[Convolution] is a mathematical operation on two functions, similar to cross-correlation (system theory). The slution is a third function being the first function modified by the second one. Multiplication in time domain $\rightarrow$ Convolution in frequency domain.
 	\item[Frequency spectrum] is a composition of different frequencies.
 	\item[Amplitude spectrum] is the absolut value of a frequency spectrum OR is a composition of different amplitudes.
@@ -133,7 +133,7 @@
 	$ \dirac=\left\{\begin{array}{ll} 0,&t \neq 0 \\
 	\infty,&t = 0\end{array}\right. $	and $\int_{-\infty}^{+\infty}\dirac dt = 1 $
 	
-	\item[Window function] is a rectangular function used as a window for calculating a DFT. When a function is multiplied by a window function, the product is zero-valued outside of the window's interval; all that is left ist the part where they overlap, the "view though the window" \figref{fig:window}.
+	\item[Window function] is a (e.g. rectangular) function used as a window for calculating a DFT. When a function is multiplied by a window function, the product is zero-valued outside of the window's interval; all that is left ist the part where they overlap, the "view though the window" \figref{fig:window}.
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.7\linewidth]{images_LA/window}

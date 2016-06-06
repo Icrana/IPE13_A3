@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.11.10)  4 JUN 2016 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.11.10)  6 JUN 2016 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -324,18 +324,18 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (./A3_Formulary.aux)
 \openout1 = `A3_Formulary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
  (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
@@ -472,40 +472,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
  []
 
-)
+) (./content_LA/DFT.tex
+<images_LA/mirrorValues.jpg, id=20, 3766.07pt x 1341.01pt>
+File: images_LA/mirrorValues.jpg Graphic file (type jpg)
+
+<use images_LA/mirrorValues.jpg>
+Package pdftex.def Info: images_LA/mirrorValues.jpg used on input line 19.
+(pdftex.def)             Requested size: 225.96579pt x 80.45712pt.
+
+Overfull \hbox (28.98668pt too wide) in paragraph at lines 26--56
+[]$[]\OT1/cmr/m/n/10.95 ([]) = []$ = $ [] $ 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
  Make it at least 32.43999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2
+[2 <./images_LA/mirrorValues.jpg>])
+
+Package Fancyhdr Warning: \headheight is too small (17.0pt): 
+ Make it at least 32.43999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3
 
 ] (./A3_Formulary.aux) ) 
 Here is how much of TeX's memory you used:
- 5853 strings out of 493089
- 87325 string characters out of 6138424
- 237318 words of memory out of 5000000
- 9228 multiletter control sequences out of 15000+600000
- 10735 words of font info for 41 fonts, out of 8000000 for 9000
+ 5867 strings out of 493089
+ 87622 string characters out of 6138424
+ 241362 words of memory out of 5000000
+ 9237 multiletter control sequences out of 15000+600000
+ 11042 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,11n,50p,264b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,13n,50p,264b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmssbx10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb><c
-:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on A3_Formulary.pdf (2 pages, 144369 bytes).
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
+x10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb><c:/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on A3_Formulary.pdf (3 pages, 1217679 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
